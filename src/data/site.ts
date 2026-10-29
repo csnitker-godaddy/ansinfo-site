@@ -6,6 +6,7 @@ export const url = (path: string) =>
 
 export const navigation = [
   { label: 'Overview', path: '' },
+  { label: 'Get started', path: 'for-developers/' },
   { label: 'Documentation', path: 'docs/' },
   { label: 'Implementations', path: 'ecosystem/' },
   { label: 'Community', path: 'community/' },
