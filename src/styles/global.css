@@ -491,6 +491,39 @@
   .section-border {
     border-top: 1px solid var(--line);
   }
+  .video-overview {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.3fr);
+    align-items: center;
+    gap: 64px;
+  }
+  .video-overview h2 {
+    margin-block: 17px 22px;
+  }
+  .video-overview p:not(.eyebrow) {
+    color: var(--muted);
+  }
+  .video-overview .text-link {
+    margin-top: 25px;
+  }
+  .video-overview video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+  }
+  .video-overview figcaption {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 0.72rem;
+  }
   .section-heading {
     display: flex;
     align-items: end;
@@ -949,6 +982,7 @@
     .page-intro {
       padding-block: 48px 40px;
     }
+    .video-overview,
     .split-content,
     .two-columns {
       grid-template-columns: 1fr;

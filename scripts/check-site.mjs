@@ -44,7 +44,7 @@ for (const file of files) {
   for (const match of html.matchAll(/<img\b[^>]*>/g)) {
     assert(/\balt="[^"]*"/.test(match[0]), `${file}: image without alt text`);
   }
-  for (const match of html.matchAll(/\b(?:href|src)="([^"<>]+)"/g)) {
+  for (const match of html.matchAll(/\b(?:href|src|poster)="([^"<>]+)"/g)) {
     const href = match[1].replaceAll('&amp;', '&');
     if (/^(https?:|mailto:|data:)/.test(href)) continue;
     assert(
