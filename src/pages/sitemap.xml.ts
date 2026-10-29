@@ -10,7 +10,6 @@ export const GET: APIRoute = ({ site }) => {
     'docs/',
     'about/',
     'community/',
-    'governance/',
     'privacy/',
   ];
   const entries = routes

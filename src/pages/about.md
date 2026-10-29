@@ -49,9 +49,6 @@ records that work and its authors.
 
 On June 23, 2026, the Linux Foundation
 [announced its intent to launch ANS](https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents).
-The project's charter adoption date is **November 3, 2026**.
-Meet the initial TSC and read about project stewardship on the
-[governance page](../governance/).
 
 ## Get involved
 

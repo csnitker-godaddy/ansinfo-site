@@ -207,16 +207,6 @@
   .prose pre code {
     overflow-wrap: anywhere;
   }
-  .prose .adoption-date {
-    border-left: 3px solid var(--teal);
-    background: var(--soft);
-    padding: 14px 18px;
-    font-size: 0.85rem;
-  }
-  .prose .adoption-date time {
-    color: var(--ink);
-    font-weight: 600;
-  }
   .container {
     width: min(1240px, calc(100% - 96px));
     margin-inline: auto;

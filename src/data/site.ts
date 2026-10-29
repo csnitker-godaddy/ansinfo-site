@@ -10,7 +10,6 @@ export const navigation = [
   { label: 'Documentation', path: 'docs/' },
   { label: 'Implementations', path: 'ecosystem/' },
   { label: 'Community', path: 'community/' },
-  { label: 'Governance', path: 'governance/' },
 ];
 
 export const specs = [
